@@ -170,6 +170,7 @@ const struct static_rule defex_static_rules[] = {
 	{feature_safeplace_path,"/vendor/bin/init.qti.kernel.sh"},
 	{feature_safeplace_path,"/vendor/bin/init.kernel.post_boot.sh"},
 	{feature_safeplace_path,"/vendor/bin/init.kernel.post_boot-lahaina.sh"},
+	{feature_safeplace_path,"/vendor/bin/init.qti.keymaster.sh"},
 	{feature_safeplace_path,"/vendor/bin/thermal_manager"},
 	{feature_safeplace_path,"/system/bin/linkerconfig"},
 	{feature_safeplace_path,"/system/bin/snapshotctl"},
@@ -194,6 +195,7 @@ const struct static_rule defex_static_rules[] = {
 	{feature_safeplace_path,"/system/bin/showmap"},
 	{feature_safeplace_path,"/product/bin/dmabuf_dump"},
 	{feature_safeplace_path,"/apex/com.android.runtime/bin/spqr"},
+	{feature_safeplace_path,"/system/bin/perfetto"},
 	{feature_safeplace_path,"/tmp/update_binary"},
 	{feature_safeplace_path,"/tmp/update-binary"},
 	{feature_safeplace_path,"/system/bin/install-recovery.sh"},	/* DEFAULT */
